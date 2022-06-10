@@ -9,3 +9,5 @@ console.log(`value:${text2}; type:${typeof text2}`);
 alert(`value:${num}; type:${typeof num}`);
 alert(`value:${text}; type:${typeof text}`);
 alert(`value:${text2}; type:${typeof text2}`);
+
+
