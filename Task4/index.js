@@ -13,13 +13,18 @@ console.log(arr_2_2);
 
 //2
 let num= prompt('Введите целое число','');
-let str="";
 let arr=[];
-for(let i=0; i<=num; i++){
-
+for(let i=0; i<num; i++){
+    arr.push (Math.floor(Math.random()*10))
 }
+console.log(arr);
 
-
+let arr_2= [...arr];
+console.log(arr_2);
+for(let i=2; i<arr_2.length; i+=3){
+  arr_2[i]*=3;
+}
+console.log(arr_2);
 
 //3
 let student1= {
