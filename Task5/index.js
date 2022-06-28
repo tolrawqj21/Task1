@@ -43,10 +43,8 @@ console.log(randomArr.pop());
 
 //со звездочкой
 
-// const arrayOne = ['dog', 'cat', 'bird', 'rabbit', 'horse'];
-// const arrayTwo = ['apple', 'car', 'cat', 'ball', 'horse'];
-// let arr= [];
-//
-// for (let i=0; i < arr.length; i++){
-//
-// }
+const arrayOne = ['dog', 'cat', 'bird', 'rabbit', 'horse'];
+const arrayTwo = ['apple', 'car', 'cat', 'ball', 'horse'];
+
+let filterArray=arrayOne.filter(el=>arrayTwo.includes(el));
+console.log(filterArray);
