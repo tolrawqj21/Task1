@@ -1,12 +1,9 @@
 //1
-function fillArray(lenght,value) {
-let arr=[],i =lenght;
-while(i--){
-    arr[i]=value;
-}
-return arr;
+function fillArray(length,value) {
+ return [...Array(length)].map(el => value);
 }
 console.log(fillArray(10,'qwerty'));
+
 
 //2
 const array = [0, 1, 2, null, undefined, 'qwerty', false];
@@ -17,8 +14,8 @@ return array.filter(args=>{
     return args ;
 })
 }
-//3
 
+//3
 function calcSum(num1, num2, ...args) {
 
     let sum1 = num1 + num2;
@@ -31,7 +28,7 @@ console.log(calcSum(1, 2, 6, 5));
 console.log(calcSum(8, 2, 6, 10));
 console.log(calcSum(5, 2, 6, 4));
 
-//4
+// //4
 function createPipe(x) {
     return function (y,f = '=====') {
         return f + x + f;
