@@ -13,11 +13,11 @@
 
 
 //2
-const removeNegativeElements = array => array.filter(value => typeof value === 'number' ? !(value < 0) : true);
-
-console.log(removeNegativeElements([-9, 2, 3, 0, -28, 'value']));
-console.log(removeNegativeElements([-9, -21, -12]));
-console.log(removeNegativeElements(['-102', 102]));
+// const removeNegativeElements = array => array.filter(value => typeof value === 'number' ? !(value < 0) : true);
+//
+// console.log(removeNegativeElements([-9, 2, 3, 0, -28, 'value']));
+// console.log(removeNegativeElements([-9, -21, -12]));
+// console.log(removeNegativeElements(['-102', 102]));
 
 
 //3
@@ -37,23 +37,28 @@ console.log(removeNegativeElements(['-102', 102]));
 
 
 //4
+// function sumRecursion(arr) {
+//     let sum = arr.shift();
+//     if (arr.length !== 0) {
+//         sum += sumRecursion(arr);
+//     }
+//     return sum;
+// }
 // const randomArr = [...Array(10)].map(() =>
 //     Math.floor(Math.random() * 11));
 // console.log(randomArr);
-//
-// function sumRecursion(){
-//
-// }
-
+// console.log(sumRecursion(randomArr));
 
 //5
-// const arr = [0, 2, 4, 5, 7, 10, 2, 35, 6, 10, 3];
+const arr = [0, 2, 4, 5, 7, 10, 2, 35, 6, 10, 3];
+function sumRecursion10(array, pattern,deep=0) {
+    let sum = arr.shift();
+    }
+console.log(sumRecursion10(arr, 10));
 
 //6
 // const arr = [0, 2, 4, 5, 7, 10, 2, 35, 6, 10, 3];
+// function RecursionMore5(array) {
 
-
-
-
-
+//}
 
