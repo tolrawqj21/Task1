@@ -24,16 +24,14 @@ console.log(finalResult);
 
 
 //3
+
 function showNumber(num, num2, time) {
     setTimeout(() => {
-       if(num !== num2) return showNumber(num + 1, num2, time);
+        if(num !== num2) return showNumber(num + 1, num2, time);
     }, time)
-
     console.log(num);
 }
-
 showNumber(5, 10, 500);
-
 
 //4
 function addBase(base) {
