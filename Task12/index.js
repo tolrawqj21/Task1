@@ -1,8 +1,8 @@
-//^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$ для емаил
-// [A-Za-z] Только буквы
-// /^\+38\d{3}\d{3}\d{2}\d{2}$/для номера телефона
-
-//1
+// //^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$ для емаил
+// // [A-Za-z] Только буквы
+// // /^\+38\d{3}\d{3}\d{2}\d{2}$/для номера телефона
+//
+// //1
 function validLetter(){
     let letter = document.getElementById('letterInput').value;
     let pattern= /[A-Za-z]/;
@@ -67,3 +67,8 @@ if( regex.test(url) )
     console.log('ok');
 else
     console.log('fail');
+
+
+
+
+
