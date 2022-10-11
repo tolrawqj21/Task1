@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+
+    background: deepskyblue;
+    background: -webkit-linear-gradient(to right, plum, deepskyblue);
+    background: linear-gradient(to right, plum, deepskyblue);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 300px;
+}
+
